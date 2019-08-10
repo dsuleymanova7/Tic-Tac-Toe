@@ -1,0 +1,62 @@
+ body {
+            margin: auto;
+        }
+        
+        table {
+            margin: 50px auto;
+        }
+        
+        #cont {
+            width: 200px;
+            margin: 0px auto;
+            font-size: 1.5em;
+        }
+        
+        #result {
+            text-align: center;
+            width: auto;
+            margin: 50px auto;
+            font-size: 1.5em;
+            background-color: #900C3F;
+            padding: 20px;
+            color: white;
+        }
+        
+         td {
+            user-select: none;
+            width: 90px;
+            height: 80px;
+            text-align: center;
+            border: 5px solid #900C3F;
+            font-size: 2em;
+            cursor: pointer;
+            background: #900C3F;
+            color: white;
+            border-radius: 10px;
+        }
+        
+        button {
+            padding: 15px 30px;
+            font-size: 1.2em;
+            color: white;
+            background: #900C3F;
+            border-radius: 10px;
+            border: 2px solid #900C3F;
+            display: flex;
+            margin: 15px auto;
+        }
+        
+        td:active {
+            transform: scale(0.95);
+            transition: transform .1s;
+        }
+        
+        button:focus {
+            outline: none;
+        }
+        
+        #p1,
+        #p2 {
+            float: left;
+            padding: 10px;
+        }
